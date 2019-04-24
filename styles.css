@@ -1,0 +1,305 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  background-color: #115173;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 5rem;
+}
+
+h2 {
+  font-weight: bolder;
+  font-size: 3rem;
+}
+
+h3 {
+  font-weight: bolder;
+}
+
+hr {
+  border: solid #fff 1px;
+  width: 0px;
+  opacity: 0;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  color: #115173;
+}
+
+.container-fluid {
+  padding: 0% 23% 2% 23%;
+  ;
+}
+
+/* Title */
+
+.hello-text {
+  opacity: 0;
+  color: #fdd043;
+  font-weight: 200;
+  font-size: 1.5rem;
+  margin-bottom: -8px;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link:hover {
+  color: #fdd043;
+}
+
+.intro-text {
+  font-size: 1.5rem;
+  padding-top: 3%;
+  line-height: 1.6;
+  opacity: 0;
+}
+
+.liv-uni-text {
+  color: #fdd043;
+}
+
+.name-text {
+  opacity: 0;
+}
+
+.navbar {
+  background-color: #115173;
+  padding: 3% 0%;
+  opacity: 0;
+  color: #fff;
+}
+
+.navbar-brand {
+  font-size: 4rem;
+  color: #fff;
+}
+
+/* Education Section */
+
+#education {
+  padding-top: 2%;
+}
+
+.section-title {
+  opacity: 0;
+}
+
+.education-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon-bgs {
+  margin-bottom: 1.5rem;
+  width: 50%;
+}
+
+.icon-dgs {
+  margin-bottom: 1rem;
+  width: 35%;
+}
+
+.icon-uol {
+  margin-bottom: 1rem;
+  width: 40%;
+}
+
+.education-info {
+  padding: 5%;
+  color: #fdd043;
+}
+
+.bgs, .uol, .dgs {
+  opacity: 0;
+}
+
+/* Projects Section */
+
+#projects {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.project-card {
+  color: #000;
+}
+
+.project-column {
+  padding-top: 5%;
+  padding-left: 3%;
+  text-align: center;
+}
+
+.card-header {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.projects-title {
+   color: #fff;
+}
+
+.view-button {
+  margin: 5% 3% 5% 0%;
+}
+
+.proj1, .proj2, .proj3 {
+  opacity: 0;
+}
+
+/* Skills Section */
+
+#skills {
+  padding-top: 2%;
+}
+
+.list-group {
+  padding: 3%;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.list-group-item {
+  padding: 3%;
+  color: #000;
+}
+
+.badge {
+  color: #000;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
+
+.skills-col {
+  padding: 3%;
+}
+
+.skills-row {
+  padding: 2%;
+}
+
+.skills-icon {
+  font-size: 2.5rem;
+}
+
+.java-text, .python-text, .javascript-text, .swift-text, .css3-text, .html5-text {
+  opacity: 0;
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+}
+
+.tracking-in {
+	animation: tracking-in 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+@keyframes tracking-in {
+  0% {
+    letter-spacing: -0.5em;
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}
+
+.tracking-out {
+	animation: tracking-out 0.8s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@keyframes tracking-out {
+  0% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    letter-spacing: -0.5em;
+    transform: translateZ(-500px);
+    opacity: 0;
+  }
+}
+
+
+
+.item1, .item2, .item3, .item4, .item5, .item6 {
+  opacity: 0;
+}
+
+/* Contact Me Section */
+
+#contact-me {
+  color: #fff;
+  padding: 4% 20%;
+  text-align: center;
+}
+
+.contact-me-heading {
+  font-weight: 900;
+  font-size: 2rem;
+  line-height: 1.5;
+  padding: 3%;
+}
+
+/* Footer Section */
+
+#footer {
+  padding: 1.5% 10%;
+  text-align: center;
+  font-family: "Montserrat";
+  background-color: #fff;
+  color: #000;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.contact-me-heading, .contact-button {
+  opacity: 0;
+}
+
+.wobble-effect {
+	animation: wobble-effect 1.2s both;
+}
+
+@keyframes wobble-effect {
+  0%,
+  100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+  15% {
+    transform: translateX(-30px) rotate(-6deg);
+  }
+  30% {
+    transform: translateX(15px) rotate(6deg);
+  }
+  45% {
+    transform: translateX(-15px) rotate(-3.6deg);
+  }
+  60% {
+    transform: translateX(9px) rotate(2.4deg);
+  }
+  75% {
+    transform: translateX(-6px) rotate(-1.2deg);
+  }
+}
